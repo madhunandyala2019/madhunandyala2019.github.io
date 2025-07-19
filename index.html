@@ -225,6 +225,209 @@
       <a class="resume-button" href="resume.pdf" target="_blank">📄 Download Resume (PDF)</a>
     </section>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madhu Nandyala | Application Security Consultant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #007acc;
+      --bg: #f9fafb;
+      --white: #ffffff;
+      --text: #1f2937;
+      --accent: #e5f3ff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: var(--white);
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p a {
+      color: var(--white);
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      background: var(--white);
+      border-left: 5px solid var(--primary);
+      margin: 20px 0;
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      transition: all 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 12px;
+      color: var(--primary);
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    .job-title {
+      font-weight: 600;
+    }
+
+    .job-period {
+      font-style: italic;
+      color: #6b7280;
+      margin-bottom: 8px;
+    }
+
+    .resume-button {
+      background-color: var(--primary);
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 15px;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Madhu Nandyala</h1>
+    <p>
+      Hyderabad, India • +91 9966869555 • 
+      <a href="mailto:madhunandyala@hotmail.com">Email</a> • 
+      <a href="https://www.linkedin.com/in/madhunandyala/" target="_blank">LinkedIn</a>
+    </p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Professional Summary</h2>
+      <p>Results-driven Application Security Consultant with 13+ years of experience in DevSecOps, Secure Code Review, and Application Security Tooling. Expertise in Threat Modeling, SAST, SCA, CI/CD Security Integration, and Security Automation.</p>
+    </section>
+
+    <section>
+      <h2>Core Competencies</h2>
+      <ul>
+        <li>SAST, DAST, SCA, Threat Modeling, Risk Management</li>
+        <li>Security Automation and Secure SDLC Enablement</li>
+        <li>Tool Evaluation, Implementation, and Integration</li>
+        <li>Cloud Security & Container Scanning (AWS, Docker, K8s)</li>
+        <li>CI/CD Pipeline Security: Jenkins, GitHub Actions, GitLab CI</li>
+        <li>Mentorship, Training, and Security Program Leadership</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Security Tools:</strong> Fortify, Checkmarx, Veracode, AppScan, Sonatype IQ, Blackduck, Snyk, Wiz (DAZZ)</li>
+        <li><strong>CI/CD Tools:</strong> Jenkins, GitHub Actions, GitLab, AWS CodePipeline</li>
+        <li><strong>Cloud & Containers:</strong> AWS, Docker, Kubernetes</li>
+        <li><strong>Languages:</strong> Java, NodeJS, Python (Beginner)</li>
+        <li><strong>Threat Modeling:</strong> STRIDE, IriusRisk, MS Threat Modeller</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+      <p class="job-title">Staff Application Security Engineer – Alteryx</p>
+      <p class="job-period">Oct 2024 – Present</p>
+      <ul>
+        <li>Led SAST and SCA onboarding for 30+ teams using SonarQube and Blackduck.</li>
+        <li>Integrated scanning tools with Wiz (DAZZ) and GitLab pipelines.</li>
+        <li>Performed 25+ Orca scans; 60+ containers scanned using Snyk.</li>
+        <li>Contributed to integrate Blackduck with Wiz (DAZZ) vulnerability aggregator tool and successfully completed.</li>
+        <li>Performed a POC to get rid off an ongoing issue with Blackduck scans with the thick client applications. Written a python script to automate identifying non modified open source components in the code base.</li>
+        <li>Integrated GITLAB native SAST with Orca to make the SAST findings flow into Orca</li>
+      </ul>
+    </section>
+
+      <section>
+      <h2>Professional Experience</h2>
+      <p class="job-title">Staff Information Security Analyst – Cadence Design Systems</p>
+      <p class="job-period">Mar 2022 - Oct 2024</p>
+      <ul>
+        <li>Built entire Fortify tool from scratch including Fortify SCA Engine, Fortify SSC and all the Jenkins/GITHUB actions integrations.</li>
+        <li>Responsible for Fortify server availability and Scan efficiency.</li>
+        <li>Networked with 80+ teams to onboard, identify vulnerabilities, remediate findings.</li> 
+        <li>Contributed to integrate Fortify with Seemplicity vulnerability aggregator tool and successfully completed.</li>
+        <li>Built the Sonatype Nexus repository and IQ Server from scratch with High availability</li>
+        <li>Performed SCA by onboarding of applications into Sonatype Nexus IQ Server tool.</li>
+        <li>Networked with 100+ teams to onboard, identify vulnerabilities, remediate findings</li>
+        <li>Contributed to integrate Nexus IQ Server with Seemplicity vulnerability aggregator tool and successfully completed.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>Master of Engineering</strong> – Anna University, Chennai (2008–2010)<br>CGPA: 8.11 / 10</p>
+    </section>
+
+    <section>
+      <h2>Awards</h2>
+      <ul>
+        <li>🏆 Technical Excellence Award (2021) – IBM</li>
+        <li>🎓 Mentoring & Internship Training Award – IBM</li>
+        <li>⚙️ Automation Award – HSBC Application Security</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Resume</h2>
+      <a class="resume-button" href="resume.pdf" target="_blank">📄 Download Resume (PDF)</a>
+    </section>
+  </div>
+</body>
+</html>
+
+
   </div>
 </body>
 </html>
